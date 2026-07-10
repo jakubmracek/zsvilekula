@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import RotatingWord from "@/components/RotatingWord";
 
 const Arrow = () => (
@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       {/* HERO — pro produkci nastav background-image na .hero-media (hi-res foto nebo <video>) */}
       <section className="hero">
-        <div className="hero-media" />
+        <div className="hero-media" style={{ backgroundImage: "url(/hero.jpg)" }} />
         <div className="hero-scrim" />
         <div className="hero-content">
           <span className="eyebrow">Soukromá základní škola · Teplice</span>
