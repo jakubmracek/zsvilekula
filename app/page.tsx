@@ -138,9 +138,9 @@ export default function Home() {
               ["Praktický život", "Vaříme z toho, co vypěstujeme", "Papriky, okurky, nože v malých rukou — a spousta ochutnávání po cestě."],
               ["Projekt", "Sázíme a zkoumáme, jak roste život", "Vlastní sazenice, pozorování a kreslení — botanika, která se dá osahat."],
               ["Ze společenství", "Ranní kruh: Příběhy Země", "Věkově smíšený kruh, kde se sdílí, naslouchá a společně objevuje."],
-            ].map(([d, t, p]) => (
+            ].map(([d, t, p], i) => (
               <article className="a-card" key={t}>
-                <div className="a-thumb">fotografie z výuky</div>
+                <div className="a-thumb" style={{ backgroundImage: `url(${["/aktuality/vareni.jpg","/aktuality/sazenice.jpg","/aktuality/kruh.jpg"][i]})`, backgroundSize: "cover", backgroundPosition: "center", color: "transparent" }}>fotografie z výuky</div>
                 <div className="a-body">
                   <div className="a-date">{d}</div>
                   <h3>{t}</h3>
