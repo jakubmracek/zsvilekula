@@ -33,6 +33,24 @@ export default function ZeZivotaSkolyPage() {
               </svg>
             </a>
           </div>
+          <p style={{ fontSize: "16px", color: "var(--inkoust-2)", lineHeight: "1.7", marginTop: "34px" }}>
+            Nejste z našich rodin? Představu o životě školy a naší komunity si uděláte z veřejného profilu na Instagramu.
+          </p>
+          <div className="cta-row" style={{ justifyContent: "center", marginTop: "14px" }}>
+            <a
+              className="btn btn-ghost"
+              href="https://www.instagram.com/vilekula.teplice/"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <rect x="2" y="2" width="20" height="20" rx="5.5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
+              </svg>
+              @vilekula.teplice na Instagramu
+            </a>
+          </div>
         </div>
       </section>
     </main>

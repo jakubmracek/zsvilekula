@@ -38,8 +38,23 @@ export default function Nav() {
           <Link href="/zapis">Pro zájemce</Link>
           <Link href="/ze-zivota-skoly">Ze života školy</Link>
           <Link href="/prakticke-informace">Pro rodiče</Link>
+          <Link href="/podporuji-nas">Podporují nás</Link>
           <Link href="/kontakt">Kontakt</Link>
         </nav>
+        <div className="nav-actions">
+        <a
+          className="ig-link"
+          href="https://www.instagram.com/vilekula.teplice/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram Vilekula (@vilekula.teplice)"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+            <rect x="2" y="2" width="20" height="20" rx="5.5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
+          </svg>
+        </a>
         <div className="nils" data-open={open} ref={ref}>
           <button
             className="nils-btn"
@@ -70,6 +85,7 @@ export default function Nav() {
           </div>
         </div>
         <button className="burger" aria-label="Menu" onClick={() => setMenu((m) => !m)}>☰</button>
+        </div>
       </div>
     </header>
   );

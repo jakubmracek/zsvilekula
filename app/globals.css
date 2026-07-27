@@ -232,7 +232,12 @@
   .doclist{list-style:none;margin:10px 0 0;display:flex;flex-direction:column;gap:2px}
   .doclist li a{display:flex;align-items:center;gap:12px;padding:12px;border-radius:9px;font-size:15px;color:var(--inkoust)}
   .doclist li a:hover{background:var(--oranz-tint)}
+  .doclist li.doc-soon{display:flex;align-items:center;gap:12px;padding:12px;border-radius:9px;font-size:15px;color:var(--inkoust-2)}
   .doclist .fic{flex:none;width:30px;height:30px;border-radius:7px;background:var(--oranz-tint);color:var(--oranz-tmava);display:flex;align-items:center;justify-content:center}
+  .doclist li.doc-soon .fic{background:var(--linka);color:var(--inkoust-2)}
+  .doc-txt{display:flex;flex-direction:column;gap:1px;min-width:0}
+  .doclist li.doc-soon .doc-label{color:var(--inkoust-2)}
+  .doc-badge{margin-left:auto;flex:none;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--inkoust-2);border:1px solid var(--linka);border-radius:999px;padding:3px 10px;white-space:nowrap}
   .acc-note{font-size:13px;color:var(--inkoust-2);margin-top:14px;font-style:italic}
   .members{list-style:none;margin:10px 0 0;display:flex;flex-direction:column;gap:10px}
   .members li{display:flex;gap:12px;align-items:baseline}
@@ -265,3 +270,23 @@
   .qr-card{background:#fff;border-radius:16px;padding:16px;display:inline-block;text-align:center}
   .qr-card img{display:block;width:180px;height:180px;border-radius:6px}
   @media(max-width:720px){.podpora{grid-template-columns:1fr;text-align:center;justify-items:center}}
+
+  /* ---- Instagram / sociální sítě ---- */
+  .nav-actions{display:flex;align-items:center;gap:12px}
+  .ig-link{flex:none;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:999px;color:var(--oranz-tmava);border:1.5px solid var(--linka);transition:.15s}
+  .ig-link:hover{background:var(--oranz);color:#fff;border-color:var(--oranz)}
+  .foot-ig{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-weight:600;color:#E6EFE3!important}
+  .foot-ig:hover{color:#fff!important}
+  .foot-ig svg{flex:none}
+
+  /* ---- /podporuji-nas ---- */
+  .sup-group + .sup-group{margin-top:36px}
+  .sup-year{font-family:var(--font-fraunces),serif;font-weight:600;font-size:20px;color:var(--inkoust);margin-top:30px}
+  .supporters{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;margin-top:16px}
+  .sup-card{background:var(--papir-2);border:1px solid var(--linka);border-radius:var(--radius);padding:26px 22px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;min-height:150px;justify-content:center}
+  .sup-card img{max-width:100%;max-height:64px;width:auto;object-fit:contain}
+  .sup-card .sup-name{font-weight:600;font-size:16px}
+  .sup-card .sup-note{font-size:13px;color:var(--inkoust-2);line-height:1.45}
+  .sup-lead{display:flex;flex-direction:column;gap:6px}
+  .sup-lead .sup-name{font-weight:600;font-size:17px}
+  .doc-desc{display:block;font-size:13px;color:var(--inkoust-2);line-height:1.4;margin-top:2px}

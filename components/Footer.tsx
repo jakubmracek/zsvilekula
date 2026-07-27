@@ -20,6 +20,19 @@ export default function Footer() {
               <br />
               IČO 231 36 316 · RED IZO 691 018 901 · DS rm35wuu
             </div>
+            <a
+              className="foot-ig"
+              href="https://www.instagram.com/vilekula.teplice/"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <rect x="2" y="2" width="20" height="20" rx="5.5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
+              </svg>
+              @vilekula.teplice
+            </a>
           </div>
           <div>
             <h4>Úřední deska</h4>
@@ -43,6 +56,7 @@ export default function Footer() {
             <h4>Spojení</h4>
             <ul>
               <li><Link href="/kontakt">Kontaktní formulář</Link></li>
+              <li><Link href="/podporuji-nas">Podporují nás</Link></li>
               <li><Link href="/zapis">Dny otevřených dveří</Link></li>
               <li><Link href="/gdpr">Ochrana údajů (GDPR)</Link></li>
               <li><a href="https://nilsson.zsvilekula.cz/">Nilsson</a></li>
