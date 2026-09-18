@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "O Vilekule — ZŠ Vilekula",
@@ -86,10 +87,11 @@ export default function OVilekulePage() {
               <p>Dítě se učí nejlíp, když ho věc opravdu zajímá.</p>
             </div>
           </div>
-          <div style={{ textAlign: "center", marginTop: "44px" }}>
+          <div style={{ display: "flex", gap: "14px", justifyContent: "center", flexWrap: "wrap", marginTop: "44px" }}>
             <a className="btn btn-primary" href="https://nilsson.zsvilekula.cz/zapis/prihlaseni">Máme zájem o zápis <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
  <path d="M5 12h14M13 6l6 6-6 6" />
  </svg></a>
+            <Link className="btn btn-ghost" href="/nas-tym" style={{ borderColor: "var(--linka)", color: "var(--inkoust)" }}>Poznejte náš tým</Link>
           </div>
         </div>
       </section>

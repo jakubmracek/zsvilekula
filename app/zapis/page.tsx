@@ -35,6 +35,14 @@ export default function ZapisPage() {
               <div className="big" style={{ fontSize: "21px" }}>1. 9. 2020 – 31. 8. 2021</div>
             </div>
           </div>
+          <div className="dod">
+            <div>
+              <div className="lbl">Den otevřených dveří</div>
+              <div className="big">Sobota 12. 12. 2026</div>
+              <p>Přijďte se k nám podívat ještě před zápisem — provedeme vás školou, poznáte průvodce a odpovíme na vaše otázky. Přesný čas upřesníme, sledujte prosím náš{" "}
+                <a href="https://www.instagram.com/vilekula.teplice/" target="_blank" rel="noopener" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>Instagram</a>.</p>
+            </div>
+          </div>
           <h4 className="sub">Jak podat přihlášku</h4>
           <div className="steps">
             <div className="step">
@@ -79,7 +87,7 @@ export default function ZapisPage() {
             <p style={{ color: "var(--inkoust-2)", marginTop: "14px", fontSize: "15px" }}>Úplná a závazná kritéria najdete na <Link href="/uredni-deska" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>úřední desce</Link>.</p>
           </div>
           <p style={{ marginTop: "26px", color: "var(--inkoust-2)", fontSize: "15px" }}>Uvažujete o <strong>odkladu</strong>? I s tím vám u zápisu poradíme — postup i potřebné doklady s vámi projdeme osobně.</p>
-          <p style={{ marginTop: "10px", color: "var(--inkoust-2)", fontSize: "15px" }}>Než se rozhodnete, přijďte se podívat — termín <strong>dne otevřených dveří</strong> pro školní rok 2027/2028 upřesníme.</p>
+          <p style={{ marginTop: "10px", color: "var(--inkoust-2)", fontSize: "15px" }}>Než se rozhodnete, přijďte se podívat — <strong>den otevřených dveří</strong> pro školní rok 2027/2028 se koná v sobotu <strong>12. 12. 2026</strong>.</p>
         </div>
       </section>
       <section className="prestup">

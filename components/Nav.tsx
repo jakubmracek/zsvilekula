@@ -35,6 +35,7 @@ export default function Nav() {
         </Link>
         <nav className="links" style={menu ? { display: "flex" } : undefined}>
           <Link href="/o-vilekule">O Vilekule</Link>
+          <Link href="/nas-tym">Náš tým</Link>
           <Link href="/zapis">Pro zájemce</Link>
           <Link href="/ze-zivota-skoly">Ze života školy</Link>
           <Link href="/prakticke-informace">Pro rodiče</Link>
