@@ -4,6 +4,8 @@
     --papir:#FCF9F3;--papir-2:#FFFFFF;
     --inkoust:#241F1A;--inkoust-2:#6A6156;--linka:#EADFCD;
     --radius:14px;--sirka:1120px;
+    --font-fraunces:"Fraunces Variable",Georgia,serif;
+    --font-dmsans:"DM Sans Variable",system-ui,sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}

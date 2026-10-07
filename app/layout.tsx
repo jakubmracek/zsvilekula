@@ -1,23 +1,11 @@
 import type { Metadata } from "next";
-import { Fraunces, DM_Sans } from "next/font/google";
+import "@fontsource-variable/fraunces/wght.css";
+import "@fontsource-variable/dm-sans/wght.css";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { LogoDefs } from "@/components/Logo";
 import { SITE_URL } from "@/lib/site";
-
-const fraunces = Fraunces({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600"],
-  variable: "--font-fraunces",
-  display: "swap",
-});
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600"],
-  variable: "--font-dmsans",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -37,7 +25,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="cs" className={`${fraunces.variable} ${dmSans.variable}`}>
+    <html lang="cs">
       <body>
         <script
           type="application/ld+json"
