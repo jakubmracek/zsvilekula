@@ -84,7 +84,7 @@ export default function UredniDeskaPage() {
               <div className="acc-body">
                 <dl>
                   <dt>Název</dt>
-                  <dd>ZŠ Vilekula</dd>
+                  <dd>Základní škola Vilekula Teplice</dd>
                   <dt>Právní forma</dt>
                   <dd>školská právnická osoba (§ 124–140 školského zákona)</dd>
                   <dt>Sídlo</dt>

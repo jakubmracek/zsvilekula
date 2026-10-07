@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "EducationalOrganization",
-              name: "Základní škola Vilekula",
+              name: "Základní škola Vilekula Teplice",
               alternateName: "ZŠ Vilekula",
               url: SITE_URL,
               email: "jakub.mracek@zsvilekula.cz",
