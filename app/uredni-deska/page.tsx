@@ -244,9 +244,9 @@ export default function UredniDeskaPage() {
                 <DocList
                   items={[
                     {
-                      label: "Výroční zpráva o činnosti a hospodaření",
-                      desc: "Souhrn činnosti a hospodaření školy za školní rok.",
-                      soon: true,
+                      label: "Výroční zpráva o činnosti školy 2025/2026",
+                      desc: "Souhrn činnosti a hospodaření školy za školní rok 2025/2026.",
+                      href: "/dokumenty/vyrocni-zprava-2025-2026.pdf",
                     },
                     {
                       label: "Inspekční zpráva ČŠI (registr inspekčních zpráv)",
