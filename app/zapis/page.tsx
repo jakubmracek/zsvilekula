@@ -28,7 +28,7 @@ export default function ZapisPage() {
             </div>
             <div className="fact">
               <div className="lbl">Počet míst</div>
-              <div className="big">14</div>
+              <div className="big">20</div>
             </div>
             <div className="fact">
               <div className="lbl">Pro děti narozené</div>
