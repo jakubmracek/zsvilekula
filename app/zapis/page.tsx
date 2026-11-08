@@ -84,7 +84,7 @@ export default function ZapisPage() {
               <li>sourozenec už ve škole (1 bod)</li>
               <li>při rovnosti bodů rozhoduje los</li>
             </ul>
-            <p style={{ color: "var(--inkoust-2)", marginTop: "14px", fontSize: "15px" }}>Úplná a závazná kritéria najdete na <Link href="/uredni-deska" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>úřední desce</Link>.</p>
+            <p style={{ color: "var(--inkoust-2)", marginTop: "14px", fontSize: "15px" }}>Úplná a závazná kritéria najdete v dokumentu <a href="/dokumenty/informace-k-zapisu-2026-2027.pdf" target="_blank" rel="noopener" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>Informace k zápisu a kritéria 2026/2027</a> na <Link href="/uredni-deska" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>úřední desce</Link>.</p>
           </div>
           <p style={{ marginTop: "26px", color: "var(--inkoust-2)", fontSize: "15px" }}>Uvažujete o <strong>odkladu</strong>? I s tím vám u zápisu poradíme — postup i potřebné doklady s vámi projdeme osobně.</p>
           <p style={{ marginTop: "10px", color: "var(--inkoust-2)", fontSize: "15px" }}>Než se rozhodnete, přijďte se podívat — <strong>den otevřených dveří</strong> pro školní rok 2027/2028 se koná v sobotu <strong>12. 12. 2026</strong>.</p>
