@@ -270,9 +270,9 @@ export default function UredniDeskaPage() {
                 <DocList
                   items={[
                     {
-                      label: "Kritéria přijetí do 1. třídy",
-                      desc: "Kritéria pro přijímání dětí k základnímu vzdělávání.",
-                      soon: true,
+                      label: "Informace k zápisu a kritéria 2026/2027",
+                      desc: "Harmonogram, dokumenty k zápisu, kritéria přijímání, nahlížení do spisu a odklady pro školní rok 2026/2027.",
+                      href: "/dokumenty/informace-k-zapisu-2026-2027.pdf",
                     },
                     {
                       label: "Žádost o přijetí k základnímu vzdělávání",
