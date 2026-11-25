@@ -86,11 +86,11 @@ export default function NasTymPage() {
               </div>
             </article>
             <article className="tcard">
-              <div className="avatar" title="zástupný portrét">HR</div>
+              <div className="avatar" title="zástupný portrét">MP</div>
               <div>
-                <h3>Helena Ryklová</h3>
-                <div className="role">Průvodkyně, průvodkyně družiny</div>
-                <p>Absolventka sociální pedagogiky na UJEP s dlouholetou praxí v pomáhajících profesích — přes deset let působí i v Centru služeb pro zdravotně postižené. Přináší porozumění individuálním potřebám dětí, empatii a zázemí pro zdravé vztahy v kolektivu.</p>
+                <h3>Miluše (Miluška) Pekárek</h3>
+                <div className="role">Průvodkyně ve školní družině</div>
+                <p>Vystudovaná farmaceutická asistentka (SZŠ), která po několikaleté praxi v oboru a pobytu v Německu, kde se jí narodily dvě děti, zakotvila zpět na Teplicku. Před třemi lety zde spoluzaložila komunitní centrum MaMi v Dubí a projekt Naučím tě nosit (půjčovnu a prodejnu ergonomických nosítek). Působí jako laktační a nosící poradkyně; díky tomu má k dětem velmi blízko — provází rodiny od samého začátku a přirozeně ji to přivedlo i k hlubšímu zájmu o respektující výchovu. V družině dětem ráda naslouchá a doprovází je při jejich odpoledním objevování a hrách.</p>
               </div>
             </article>
             <article className="tcard">
@@ -132,6 +132,13 @@ export default function NasTymPage() {
               <div>
                 <h3>Jonáš Sirko</h3>
                 <div className="role">Dobrovolník</div>
+              </div>
+            </article>
+            <article className="tcard">
+              <div className="avatar" title="zástupný portrét">HR</div>
+              <div>
+                <h3>Helena Ryklová</h3>
+                <p>Absolventka sociální pedagogiky na UJEP s dlouholetou praxí v pomáhajících profesích — přes deset let působí i v Centru služeb pro zdravotně postižené. Přináší porozumění individuálním potřebám dětí, empatii a zázemí pro zdravé vztahy v kolektivu.</p>
               </div>
             </article>
           </div>
