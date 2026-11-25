@@ -38,9 +38,20 @@ export default function ZapisPage() {
           <div className="dod">
             <div>
               <div className="lbl">Den otevřených dveří</div>
-              <div className="big">Sobota 12. 12. 2026</div>
-              <p>Přijďte se k nám podívat ještě před zápisem — provedeme vás školou, poznáte průvodce a odpovíme na vaše otázky. Přesný čas upřesníme, sledujte prosím náš{" "}
-                <a href="https://www.instagram.com/vilekula.teplice/" target="_blank" rel="noopener" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>Instagram</a>.</p>
+              <div className="big">Sobota 12. 12. 2026 od 14:00</div>
+              <p>Srdečně zveme děti a rodiče. <strong>Přijít můžete bez jakékoli registrace</strong> — jen vás prosíme, přijďte včas.</p>
+              <h4>Kdy přijít</h4>
+              <ul>
+                <li>Školu otevíráme ve 13:45, program začíná ve 14:05.</li>
+                <li>Další příležitost vejít dovnitř je od 15:00 do 15:15.</li>
+              </ul>
+              <h4>Chystáme pro vás</h4>
+              <ul>
+                <li>společné zahájení v tělocvičně,</li>
+                <li>prezentaci pana ředitele a souběžně aktivity pro děti („zažijte trochu Vilekuly“) — obojí zhruba na hodinu. Pokud dítě potřebuje vaši blízkost, přijďte prosím ve dvou: jeden bude s dětmi, druhý na setkání s ředitelem,</li>
+                <li>od 15:15 volný program — neformální povídání s pedagogy i rodiči stávajících žáků; drobné občerstvení a teplé nápoje, které děti nabídnou za drobný poplatek.</li>
+              </ul>
+              <p className="close">Těší se na vás celý tým, děti i rodiče z Vilekuly (a možná i Pipi!).</p>
             </div>
           </div>
           <h4 className="sub">Jak podat přihlášku</h4>
@@ -87,7 +98,6 @@ export default function ZapisPage() {
             <p style={{ color: "var(--inkoust-2)", marginTop: "14px", fontSize: "15px" }}>Úplná a závazná kritéria najdete v dokumentu <a href="/dokumenty/informace-k-zapisu-2026-2027.pdf" target="_blank" rel="noopener" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>Informace k zápisu a kritéria 2026/2027</a> na <Link href="/uredni-deska" style={{ color: "var(--oranz-tmava)", textDecoration: "underline" }}>úřední desce</Link>.</p>
           </div>
           <p style={{ marginTop: "26px", color: "var(--inkoust-2)", fontSize: "15px" }}>Uvažujete o <strong>odkladu</strong>? I s tím vám u zápisu poradíme — postup i potřebné doklady s vámi projdeme osobně.</p>
-          <p style={{ marginTop: "10px", color: "var(--inkoust-2)", fontSize: "15px" }}>Než se rozhodnete, přijďte se podívat — <strong>den otevřených dveří</strong> pro školní rok 2027/2028 se koná v sobotu <strong>12. 12. 2026</strong>.</p>
         </div>
       </section>
       <section className="prestup">

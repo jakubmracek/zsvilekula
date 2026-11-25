@@ -122,7 +122,7 @@ export default function NasTymPage() {
             <article className="tcard">
               <div className="avatar" title="zástupný portrét">MS</div>
               <div>
-                <h3>Martina Součková</h3>
+                <h3>Martina Sirková</h3>
                 <div className="role">Dobrovolnice</div>
                 <p>Architektka, která si k práci s dětmi doplnila pedagogické minimum. Zkušenosti s neformálním vzděláváním má ze skautu, kde vede oddíl a lektoruje kurzy pro budoucí vedoucí. Ve Vilekule pomáhá s komunitními a vzdělávacími aktivitami.</p>
               </div>
